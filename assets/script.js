@@ -10,7 +10,6 @@ const showInfoInConsole = () => {
 }
 showInfoInConsole()
 
-
 const countUp = () => {
   const numberOfCards = document.getElementsByClassName('card').length
   const numberOfContributors = numberOfCards - 1 // minus the example card
@@ -43,7 +42,7 @@ let current = 1
 const getArchiveCards = i => {
   createArchiveObject(i)
 
-  document.getElementById(`archiveObject_${i}`).onload = function() {
+  document.getElementById(`archiveObject_${i}`).onload = function () {
     const archiveObject = document.getElementById(`archiveObject_${i}`)
     const cards = archiveObject.contentDocument.querySelectorAll('.card')
     const grid = document.querySelector('.grid')
@@ -61,9 +60,8 @@ const getArchiveCards = i => {
 
 getArchiveCards(current)
 
-
 // night mode feature
-$('#toggle-box-checkbox').on('change', function() {
+$('#toggle-box-checkbox').on('change', function () {
   if (this.checked) {
     $('body').addClass('night')
   } else {
@@ -72,7 +70,7 @@ $('#toggle-box-checkbox').on('change', function() {
 })
 
 function demo() {
-  setInterval(function() {
+  setInterval(function () {
     $('#toggle-box-checkbox').trigger('click')
   }, 1000)
 }

@@ -38,7 +38,6 @@ You will make a copy of the card template inside the HTML file and customise it 
 | <ul><li>[Introduction](#introduction)</li><li>[What am I going to contribute?](#what-am-i-going-to-contribute)</li><li>[Setup](#setup)</li><li>[Contribute &rightarrow;](#contribute)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Step 1: Fork this repository](#step-1-fork-this-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-pr)</li><li>[Step 10: Celebrate!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-
 ## Setup
 
 First let's get setup to do the work
@@ -70,7 +69,6 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Click on the _Fork_ button</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
-
 - You now have a complete copy of the project in your own account
 
 ---
@@ -82,7 +80,6 @@ _Estimated time: Less than 30 minutes_.
 
 | <ul><li>Click on _File_ then _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
-
 
 | <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
@@ -101,16 +98,13 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Click on _Current branch_</li><li>Then click on _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
-
 | <ul><li>Give your branch a name</li><li>Click `Create branch`</li></ul> | ![Name branch](readme-only/branch-name.PNG 'Name your branch') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
-
 
 - You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
 
 | <ul><li>Publish your new branch to Github</li></ul> | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
-
 
 - Now you have created a new branch separate from the master.
 - For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
@@ -127,7 +121,6 @@ _Estimated time: Less than 30 minutes_.
 
 | <ul><li>Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project</li><li>Alternatively you can locate the file on your hard drive, right click, and open with your editor</li></ul> | ![Open index file](readme-only/index-open.PNG 'Open index.html in your text editor') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
-
 
 - Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
 
@@ -156,7 +149,6 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Replace 'Name' with your name</li><li>Note: Don't change `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG 'Type your name') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
 
-
 | <ul><li>Insert the URL of your Twitter account `href="Insert URL here"`</li><li>Type your handle in the text field</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------- |
 | ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')               |
@@ -165,7 +157,6 @@ _Estimated time: Less than 30 minutes_.
 
 | <ul><li>Tell us something about you</li><li>Keep it short and sweet. Think about it more like a tweet than a blog post</li></ul> | ![Change about](readme-only/change-about.PNG 'Write a sentence about you') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
-
 
 | <ul><li>Share with the community 3 links to resources that are useful for web development</li><li>This can be anything, a video, a talk, a podcast, an article, a reference, or a tool</li><li>If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -188,14 +179,12 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>The next step is called _Commit_</li><li>This roughly means "confirm the changes"</li></ul> | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left") |
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-
 | <ul><li>This is what your GitHub desktop header should look like</li><li>Notice the fork symbol next to the project name in `Current repository`</li><li>Your `Current branch` will have the name you gave it in step 3</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                               |
 
 | <ul><li>To _Commit_ you must fill in the _Summary_ field</li><li>This is the commit message explaining what you have changed</li><li>In this case "Add my card information" would be a reasonable message</li><li>Optionally you can add a more detailed _Description_</li><li>Click the _Commit_ button. Your button will say something like `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
-
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
 
 ---
 
@@ -206,7 +195,6 @@ _Estimated time: Less than 30 minutes_.
 
 | <ul><li>Click the _Push_ button</li></ul> | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
-
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
 
@@ -224,14 +212,12 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Click on the `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
 | :-------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-
 | <ul><li>This is what the `Open a pull request` page looks like.</li><li>REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.</li><li>The image below gives you an idea of how the header of your pull request should look like.</li><li>On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.</li></ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Open a Pull Request](readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                                                                                      |
 
 | <ul><li>Create a pull request:</li><li>Write a title</li><li>Add optional information in the description</li><li>Click `Create pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
-
 
 - Don't be fazed by all the options. You only need to do these three steps for now.
 - Leave the option `Allow edits from maintainers` ticked.
